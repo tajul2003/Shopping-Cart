@@ -10,7 +10,9 @@ const resetCartButton = document.getElementById('reset-cart');
 
 function updateQuantityDisplay() {
     quantityDisplay.textContent = `Current Quantity: ${cartQuantity}`;
+     console.log(cartQuantity);
 }
+
 
 
 addToCartButton.addEventListener('click', () => {
